@@ -1,0 +1,42 @@
+.box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    flex-direction: column;
+    box-shadow: 1px 1px 50px 1px #f2f4f8;
+}
+
+.box h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box p{
+    font-weight: 200;
+}
+
+
+
+.input{
+    margin-top: 20px;
+}
+
+.input{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input button{
+    margin-top: 50px;
+    background-color: #3e37ffc0;
+    color: white;
+    border-radius: 12px;
+    height: 50px;
+}
