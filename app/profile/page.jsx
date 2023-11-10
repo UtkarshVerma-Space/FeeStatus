@@ -7,6 +7,10 @@ import Link from "next/link";
 export default function Profile() {
   const auth = getAuth();
   const user = auth.currentUser;
+
+  let displayName, email; 
+
+
   if (user !== null) {
     // The user object has basic properties such as display name, email, etc.
     const email = user.email;
